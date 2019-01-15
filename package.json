@@ -1,15 +1,38 @@
 {
-  "name": "react-native-dtmf",
-  "version": "1.0.2",
+  "_from": "react-native-dtmf",
+  "_id": "react-native-dtmf@1.0.2",
+  "_inBundle": false,
+  "_integrity": "sha1-vFb8smWzWaU0GSKn93R0jCFnt6Q=",
+  "_location": "/react-native-dtmf",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "react-native-dtmf",
+    "name": "react-native-dtmf",
+    "escapedName": "react-native-dtmf",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-dtmf/-/react-native-dtmf-1.0.2.tgz",
+  "_shasum": "bc56fcb265b359a5341922a7f774748c2167b7a4",
+  "_spec": "react-native-dtmf",
+  "_where": "C:\\work\\assac-application",
+  "author": {
+    "name": "Luc Belliveau"
+  },
+  "bugs": {
+    "url": "https://github.com/lucbelliveau/react-native-dtmf/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
   "description": "React Native library capable of generating DTMF tones",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/lucbelliveau/react-native-dtmf"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "homepage": "https://github.com/lucbelliveau/react-native-dtmf#readme",
   "keywords": [
     "react-native",
     "dtmf",
@@ -17,9 +40,18 @@
     "voip",
     "sound"
   ],
-  "author": "Luc Belliveau",
   "license": "MIT",
+  "main": "index.js",
+  "name": "react-native-dtmf",
   "peerDependencies": {
     "react-native": "^0.41.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucbelliveau/react-native-dtmf.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.2"
 }
