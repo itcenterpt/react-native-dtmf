@@ -42,7 +42,7 @@
   ],
   "license": "MIT",
   "main": "index.js",
-  "name": "react-native-dtmf",
+  "name": "react-native-dtmf-assac",
   "peerDependencies": {
     "react-native": "^0.41.2"
   },
