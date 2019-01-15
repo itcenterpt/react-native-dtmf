@@ -1,6 +1,6 @@
 {
-  "_from": "react-native-dtmf",
-  "_id": "react-native-dtmf@1.0.2",
+  "_from": "git+https://github.com/AssacNetworks/react-native-dtmf-assac.git",
+  "_id": "react-native-dtmf-assac@1.0.2",
   "_inBundle": false,
   "_integrity": "sha1-vFb8smWzWaU0GSKn93R0jCFnt6Q=",
   "_location": "/react-native-dtmf",
@@ -8,12 +8,12 @@
   "_requested": {
     "type": "tag",
     "registry": true,
-    "raw": "react-native-dtmf",
-    "name": "react-native-dtmf",
-    "escapedName": "react-native-dtmf",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
+    "raw": "react-native-dtmf-assac@git+https://github.com/AssacNetworks/react-native-dtmf-assac.git",
+    "name": "react-native-dtmf-assac",
+    "escapedName": "react-native-dtmf-assac",
+    "rawSpec": "git+https://github.com/AssacNetworks/react-native-dtmf-assac.git",
+    "saveSpec": "git+https://github.com/AssacNetworks/react-native-dtmf-assac.git",
+    "fetchSpec": "https://github.com/AssacNetworks/react-native-dtmf-assac.git"
   },
   "_requiredBy": [
     "#USER",
