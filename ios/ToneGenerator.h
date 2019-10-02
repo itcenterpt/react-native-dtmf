@@ -20,10 +20,10 @@ OSStatus RenderTone(
                     UInt32 inNumberFrames,
                     AudioBufferList *ioData);
 
-void initialize();
+void initialize(void);
 //void startTone(int dtmf);
 void startTone(int dtmf, int duration);
-void stopTone();
+void stopTone(void);
 
 typedef enum {
   DTMF_1, DTMF_2, DTMF_3, DTMF_4, DTMF_5, DTMF_6, DTMF_7, DTMF_8, DTMF_9, DTMF_0,

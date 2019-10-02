@@ -1,13 +1,12 @@
 
 # react-native-dtmf
 
-## Getting started
+### installation
 
-`$ npm install react-native-dtmf --save`
+`npm install --save git+<REPO_URL>#<TAG>`
 
-### Automatic installation
-
-`$ react-native link react-native-dtmf`
+__REPO_URL__: https://github.com/itcenterpt/react-native-dtmf.git
+__TAG__: branch name or tag
 
 ## Usage
 ```javascript
@@ -50,27 +49,4 @@ Function | Description
 | DTMF_S / DTMF_STAR  | *     | 941 Hz + 1209 Hz |
 | DTMF_P / DTMF_POUND | #     | 941 Hz + 1477 Hz |
 
-## Manual installation
 
-### iOS
-
-1. In XCode, in the project navigator, right click `Libraries` ➜ `Add Files to [your project's name]`
-2. Go to `node_modules` ➜ `react-native-dtmf` and add `RNDtmf.xcodeproj`
-3. In XCode, in the project navigator, select your project. Add `libRNDtmf.a` to your project's `Build Phases` ➜ `Link Binary With Libraries`
-4. Run your project (`Cmd+R`)<
-
-### Android
-
-1. Open up `android/app/src/main/java/[...]/MainActivity.java`
-  - Add `import ca.bigdata.voice.dtmf.BigDataDTMFPackage;` to the imports at the top of the file
-  - Add `new BigDataDTMFPackage()` to the list returned by the `getPackages()` method
-2. Append the following lines to `android/settings.gradle`:
-  	```
-  	include ':react-native-dtmf'
-  	project(':react-native-dtmf').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-dtmf/android')
-  	```
-3. Insert the following lines inside the dependencies block in `android/app/build.gradle`:
-  	```
-      compile project(':react-native-dtmf')
-  	```
-  

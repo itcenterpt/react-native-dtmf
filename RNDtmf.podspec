@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.homepage            = package['homepage']
   s.license             = package['license']
   s.author              = package['author']
-  s.source              = { :git => "https://github.com/AssacNetworks/react-native-dtmf-assac.git", :tag => s.version }
+  s.source              = { :git => "https://github.com/itcenterpt/react-native-dtmf.git", :tag => s.version }
 
   s.requires_arc        = true
   s.platform            = :ios, "9.0"
