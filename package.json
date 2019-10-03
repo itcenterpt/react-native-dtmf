@@ -1,6 +1,6 @@
 {
-  "_from": "git+https://github.com/AssacNetworks/react-native-dtmf-assac.git",
-  "_id": "react-native-dtmf-assac@1.0.2",
+  "_from": "git+https://github.com/itcenterpt/react-native-dtmf.git",
+  "_id": "react-native-dtmf@2.0.0",
   "_inBundle": false,
   "_integrity": "sha1-vFb8smWzWaU0GSKn93R0jCFnt6Q=",
   "_location": "/react-native-dtmf",
@@ -8,31 +8,30 @@
   "_requested": {
     "type": "tag",
     "registry": true,
-    "raw": "react-native-dtmf-assac@git+https://github.com/AssacNetworks/react-native-dtmf-assac.git",
-    "name": "react-native-dtmf-assac",
-    "escapedName": "react-native-dtmf-assac",
-    "rawSpec": "git+https://github.com/AssacNetworks/react-native-dtmf-assac.git",
-    "saveSpec": "git+https://github.com/AssacNetworks/react-native-dtmf-assac.git",
-    "fetchSpec": "https://github.com/AssacNetworks/react-native-dtmf-assac.git"
+    "raw": "react-native-dtmf@git+https://github.com/itcenterpt/react-native-dtmf.git",
+    "name": "react-native-dtmf",
+    "escapedName": "react-native-dtmf",
+    "rawSpec": "git+https://github.com/itcenterpt/react-native-dtmf.git",
+    "saveSpec": "git+https://github.com/itcenterpt/react-native-dtmf.git",
+    "fetchSpec": "https://github.com/itcenterpt/react-native-dtmf.git"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/react-native-dtmf/-/react-native-dtmf-1.0.2.tgz",
+  "_resolved": "https://registry.npmjs.org/react-native-dtmf/-/react-native-dtmf-2.0.0.tgz",
   "_shasum": "bc56fcb265b359a5341922a7f774748c2167b7a4",
   "_spec": "react-native-dtmf",
-  "_where": "C:\\work\\assac-application",
   "author": {
     "name": "Luc Belliveau"
   },
   "bugs": {
-    "url": "https://github.com/lucbelliveau/react-native-dtmf/issues"
+    "url": "https://github.com/itcenterpt/react-native-dtmf/issues"
   },
   "bundleDependencies": false,
   "deprecated": false,
   "description": "React Native library capable of generating DTMF tones",
-  "homepage": "https://github.com/lucbelliveau/react-native-dtmf#readme",
+  "homepage": "https://github.com/itcenterpt/react-native-dtmf.git#readme",
   "keywords": [
     "react-native",
     "dtmf",
@@ -42,16 +41,16 @@
   ],
   "license": "MIT",
   "main": "index.js",
-  "name": "react-native-dtmf-assac",
+  "name": "react-native-dtmf",
   "peerDependencies": {
     "react-native": "^0.41.2"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lucbelliveau/react-native-dtmf.git"
+    "url": "git+https://github.com/itcenterpt/react-native-dtmf.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "1.0.2"
+  "version": "2.0.0"
 }
